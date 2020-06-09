@@ -1,0 +1,20 @@
+{
+  "name": "cpu-monitoring-models",
+  "version": "1.0.0",
+  "description": "Shared Models for tracking cpu utilization",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas Wallmann",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.14.5",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.0.0"
+  }
+}
