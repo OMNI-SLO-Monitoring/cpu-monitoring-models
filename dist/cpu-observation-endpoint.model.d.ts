@@ -4,5 +4,5 @@ export default class CpuObservationEndpoint {
     cpuUtilQueryEndpoint: string;
     criticalCpuUtilThreshold: number;
     cpuObservationFrequencyMilis: number;
-    constructor(id: string, name: string, cpuUtilQueryEndpoint: string, criticalCpuUtilThreshold: number, cpuObservationFrequencyMilis: number);
+    constructor(name: string, cpuUtilQueryEndpoint: string, criticalCpuUtilThreshold: number, cpuObservationFrequencyMilis: number);
 }

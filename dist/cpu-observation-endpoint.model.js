@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const uuid_1 = require("uuid");
 class CpuObservationEndpoint {
-    constructor(id, name, cpuUtilQueryEndpoint, criticalCpuUtilThreshold, cpuObservationFrequencyMilis) {
-        this.id = id;
+    constructor(name, cpuUtilQueryEndpoint, criticalCpuUtilThreshold, cpuObservationFrequencyMilis) {
+        this.id = uuid_1.v4();
         this.name = name;
         this.cpuUtilQueryEndpoint = cpuUtilQueryEndpoint;
         this.criticalCpuUtilThreshold = criticalCpuUtilThreshold;

@@ -121,9 +121,19 @@
         "signature": "d2f31f19e1ba6ed59be9259d660a239d9a3fcbbc8e038c6b2009bde34b175fed",
         "affectsGlobalScope": false
       },
+      "../node_modules/@types/uuid/interfaces.d.ts": {
+        "version": "5cc5d6f26a50072d51c4ea3a85ee65574b7fa2ae48261ae27b07014695638c50",
+        "signature": "5cc5d6f26a50072d51c4ea3a85ee65574b7fa2ae48261ae27b07014695638c50",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/uuid/index.d.ts": {
+        "version": "10705e247f107bf61e6f9f420efc4b5034e2ff2767c5255ae8b3a128f6e402e0",
+        "signature": "10705e247f107bf61e6f9f420efc4b5034e2ff2767c5255ae8b3a128f6e402e0",
+        "affectsGlobalScope": false
+      },
       "../src/cpu-observation-endpoint.model.ts": {
-        "version": "1ad45e47766da6071479c6c3e17667852b440cc11d032c49d797a922ca08a1b1",
-        "signature": "3e093b878a49c954a1254b640ef6d362f639fc9ee4bf4076d68a621b8b16287b",
+        "version": "3b5db1560aff2d7765e407bfec82e75b32db2fe4ce85c88f4ed08a75253785ab",
+        "signature": "949a018d6631016170f428dde3fa3984f86a305a0efaefa85708aee688844120",
         "affectsGlobalScope": false
       },
       "../src/cpu-observaton-status.model.ts": {
@@ -151,18 +161,29 @@
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
+      "../node_modules/@types/uuid/index.d.ts": [
+        "../node_modules/@types/uuid/interfaces.d.ts"
+      ],
+      "../src/cpu-observation-endpoint.model.ts": [
+        "../node_modules/@types/uuid/index.d.ts"
+      ],
       "../src/index.ts": [
         "../src/cpu-observation-endpoint.model.ts",
         "../src/cpu-observaton-status.model.ts"
       ]
     },
     "exportedModulesMap": {
+      "../node_modules/@types/uuid/index.d.ts": [
+        "../node_modules/@types/uuid/interfaces.d.ts"
+      ],
       "../src/index.ts": [
         "../src/cpu-observation-endpoint.model.ts",
         "../src/cpu-observaton-status.model.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "../node_modules/@types/uuid/index.d.ts",
+      "../node_modules/@types/uuid/interfaces.d.ts",
       "../src/cpu-observation-endpoint.model.ts",
       "../src/cpu-observaton-status.model.ts",
       "../src/index.ts",
