@@ -10,8 +10,8 @@ import in a project with `npm i git+https://github.com/ccims/cpu-monitoring-mode
 
 exports the following models:
 
-`CpuObservationEndpoint`, the endpoint for a Cpu Utilization of a Service
-`CpuObservationStatus`, the status of a given `CpuObservationEndpoint`
+- `CpuObservationEndpoint`, the endpoint for a Cpu Utilization of a Service
+- `CpuObservationStatus`, the status of a given `CpuObservationEndpoint`
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
