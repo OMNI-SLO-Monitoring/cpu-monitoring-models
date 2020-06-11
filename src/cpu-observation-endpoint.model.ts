@@ -13,6 +13,7 @@ export default class CpuObservationEndpoint {
         criticalCpuUtilThreshold: number,
         cpuObservationFrequencyMilis: number,
     ) {
+        // generates a unique identifier with the uuid pacakge
         this.id = uuid();
         this.name = name;
         this.cpuUtilQueryEndpoint = cpuUtilQueryEndpoint;
