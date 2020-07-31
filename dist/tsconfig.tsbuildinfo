@@ -132,7 +132,7 @@
         "affectsGlobalScope": false
       },
       "../src/cpu-observation-endpoint.model.ts": {
-        "version": "f088ca59b544d82dff544864f852a078a25202dd0776d3f86ab9c96e7714f442",
+        "version": "31a6995c8a1c4b316c5d748e6213ed005cbac4d9d51917915a4b0e29f34f1ef1",
         "signature": "c67ba8f7b6b1fb0975d6de03bf91e6460d315c3845dc3bae130bc8bee67c96ce",
         "affectsGlobalScope": false
       },
