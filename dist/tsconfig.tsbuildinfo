@@ -132,8 +132,8 @@
         "affectsGlobalScope": false
       },
       "../src/cpu-observation-endpoint.model.ts": {
-        "version": "3b5db1560aff2d7765e407bfec82e75b32db2fe4ce85c88f4ed08a75253785ab",
-        "signature": "949a018d6631016170f428dde3fa3984f86a305a0efaefa85708aee688844120",
+        "version": "f088ca59b544d82dff544864f852a078a25202dd0776d3f86ab9c96e7714f442",
+        "signature": "c67ba8f7b6b1fb0975d6de03bf91e6460d315c3845dc3bae130bc8bee67c96ce",
         "affectsGlobalScope": false
       },
       "../src/cpu-observaton-status.model.ts": {
