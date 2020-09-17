@@ -1,6 +1,7 @@
 # CPU Monitoring Models
 
-Simple TypeScript Package that provides models (classes) used in CPU-tracking-monitoring-service and monitoring-cpu-frontend
+Simple TypeScript Package that provides models (classes) used in
+ [CPU Tracking Monitoring Service](https://github.com/ccims/CPU-tracking-monitoring-service) and [Combined Monitoring Frontend](https://github.com/ccims/monitoring-frontend)
 
 ## Installation
 
